@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+  font-family: Arial, sans-serif;
+  color: white;
+  overflow: hidden;
+}
+
+#apHacks {
+  font-size: 50px;
+  font-weight: bold;
+  opacity: 0;
+  animation: showText 2s forwards;
+}
+
+@keyframes showText {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
