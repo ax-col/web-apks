@@ -32,13 +32,23 @@ body {
 
 section.hidden {
     animation-delay: calc(var(--order) * 1.5s); /* Calcula retraso dinámico basado en el orden */
-}
+} 
 
 /* Estilo para las secciones */
 section {
     margin: 20px auto;
     padding: 20px;
     border: 1px solid #444; /* Bordes grises */
+    border-radius: 8px;
+    width: 80%;
+    max-width: 600px;
+    background-color: #111; /* Fondo oscuro para las secciones */
+}
+
+section2 {
+    margin: 0px auto;
+    padding: 0px;
+    border: 0px solid #444; /* Bordes grises */
     border-radius: 8px;
     width: 80%;
     max-width: 600px;
@@ -63,4 +73,23 @@ button:hover {
     background-color: limegreen;
     color: black; /* Texto negro */
 }
+    
+.countdown-container {
+      width: 300px;
+      padding: 30px;
+      margin: 20px auto;
+      background-color: transparent;
+      border: 3px solid red;
+      border-radius: 15px;
+      box-shadow: 0 0 10px rgba(255, 16, 16, 0.1);
+      display: flex;
+      justify-content: space-around;
+    }
+    .countdown-item {
+      text-align: center;
+    }
+    .countdown-label {
+      font-size: 14px;
+      color: white;
+    }
 
